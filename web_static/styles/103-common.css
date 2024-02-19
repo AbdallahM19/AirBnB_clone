@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #484848;
-    size: 14px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
