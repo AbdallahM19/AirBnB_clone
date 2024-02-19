@@ -1,6 +1,5 @@
 .places {
     text-align: center;
-    display: flexbox;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
