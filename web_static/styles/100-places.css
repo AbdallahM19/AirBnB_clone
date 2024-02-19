@@ -3,6 +3,10 @@
     text-align: left;
 }
 
+footer {
+    position: relative;
+}
+
 article {
     width: 390px;
     padding: 20px;
@@ -12,7 +16,7 @@ article {
     display: inline-block;
     min-height: 250px;
     vertical-align: top;
-    position: relative;
+    /* position: relative; */
 }
 
 .places article h2 {
@@ -23,9 +27,12 @@ article {
 .places article .my-home,
 .places article .tiny-house,
 .places article .a-suite,
-.places article .ps5{
-    position: relative;
-    bottom: 25px;
+.places article .ps5 {
+    /* position: relative; */
+    /* bottom: 50px; */
+    /* padding-bottom: 0px; */
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 
 /* .places article::after-child h2{
@@ -45,7 +52,7 @@ div.price_by_night {
     font-size: 30px;
     float: right;
     border-radius: 100%;
-    position: relative;
+    /* position: relative; */
     right: 5px;
     margin-top: -80px;
 }
